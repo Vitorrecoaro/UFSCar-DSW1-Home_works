@@ -1,0 +1,31 @@
+<!--
+    UFSCar - 2022.1 - Trabalho prático Servlet
+
+    Aluno: Vitor de Almeida Recoaro.
+    RA: 790035.
+
+    Data: 22/08/2022
+-->
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Sucesso!
+    </title>
+</head>
+
+<body>
+    <h2>
+        Mensagem enviada com sucesso!
+    </h2>
+    <p> Olá, <span th:text="${nome}">caro ninguém!</span> Sua mensagem foi a seguinte: </p>
+    <p th:text="${mensagem}">
+        Não há nada aqui.
+    </p>
+    <p> Muito obrigado pela mensagem! Em breve entrarei em contato com você!</p>
+</body>
+
+</html>

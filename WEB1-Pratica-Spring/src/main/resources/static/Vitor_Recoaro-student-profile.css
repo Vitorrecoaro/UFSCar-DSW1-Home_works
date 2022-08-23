@@ -1,0 +1,86 @@
+/* Style for profile image */
+
+#profileImg {
+    border-radius: 100%;
+    width: 10%;
+    max-width: 300px;
+    min-width: 200px;
+}
+
+/* Style for generic div */
+
+.centeredContainer {
+    text-align: center;
+}
+
+/* Style for table */
+
+#tblClasses {
+    margin-left: auto;
+    margin-right: auto;
+    border-color: black;
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+    border-color: black;
+    border-right: 1px solid;
+}
+
+th {
+    background-color: black;
+    color: white;
+    border-color: black;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+tbody {
+    text-align: left;
+}
+
+#personalInfoList {
+    display: inline-block;
+    text-align: left;
+}
+
+/* Style for forms */
+
+#footer {
+    position: relative;
+    bottom: 0;
+    background-color: rgb(6, 8, 114);
+    margin-top: 10px;
+    padding-top: 5px;
+    color: white;
+    text-align: left;
+    padding: 5px;
+}
+
+
+input {
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+}
+
+textarea {
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
+}
+
+button {
+    border-radius: 10px 0px;
+    background-color: rgb(83, 84, 177);
+    color: white;
+    border-color: transparent;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: rgb(153, 155, 248);
+    color: black;
+}
