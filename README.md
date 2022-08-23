@@ -1,2 +1,3 @@
-# UFSCar-DSW1-Home_works
-This repository is for home works from class web development 1, occured on 2022.2
+# WEB1 - Prática Spring Boot
+
+Tarefas práticas de front end e backend da disciplina de **desenvolvimento de software para web 1**
